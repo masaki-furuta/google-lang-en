@@ -3,6 +3,12 @@
     "version": "1.0.0",
     "manifest_version": 2,
     "description": "Just adding &lr=lang_en to URL",
+    "icons":
+    {
+        "16":"icon16.png",
+        "48":"icon48.png",
+        "128":"icon128.png"
+    },
 	"content_scripts": [ {
 		"matches": ["https://www.google.com/*"],
 		"js": ["script.js"]
