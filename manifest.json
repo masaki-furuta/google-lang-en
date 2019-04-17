@@ -1,5 +1,5 @@
 {
-    "name": "Lang switcher for google search result",
+    "name": "English result from google.com",
     "version": "1.0.0",
     "manifest_version": 2,
     "description": "Just adding &lr=lang_en to URL",
@@ -9,7 +9,7 @@
 	} ],
     "browser_action":
     {
-        "default_title": "Added &lr=lang_en to URL"
+        "default_title": "English result from google.com"
     },
     "background":
     {
