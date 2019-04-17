@@ -1,0 +1,23 @@
+{
+    "name": "Lang switcher for google search result",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Just adding &lr=lang_en to URL",
+	"content_scripts": [ {
+		"matches": ["https://www.google.com/*"],
+		"js": ["script.js"]
+	} ],
+    "browser_action":
+    {
+        "default_title": "Added &lr=lang_en to URL"
+    },
+    "background":
+    {
+        "scripts": [ "script.js" ]
+    },
+    "permissions": [
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+    ]
+}
