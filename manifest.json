@@ -10,7 +10,7 @@
         "128":"icon128.png"
     },
 	"content_scripts": [ {
-		"matches": ["https://www.google.com/*"],
+		"matches": ["https://www.google.com/*", "http://www.google.co.jp/*"],
 		"js": ["script.js"]
 	} ],
     "browser_action":
